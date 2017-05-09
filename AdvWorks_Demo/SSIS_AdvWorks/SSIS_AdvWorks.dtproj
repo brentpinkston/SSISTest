@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">CW-00002456</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyhk+hFPNyEWfb4pFdrhM/QAAAAACAAAAAAADZgAAwAAAABAAAABwaQz3lxeJAItxIwBn0XftAAAAAASAAACgAAAAEAAAAMGvGPlBZRYnvQUMJ4ixQ/eIAAAAt/oZek9eYKB+g+4a26s+KQ1YTp0JIM3iUg2pk7/3vSBea/jRAi6CaQhNVf7bcI4Nv7Q2SxC/rwOvLQydG1PWmu7k7TpDqc/o6k+C57iSH3nsdXijKZKvW0hH1USU04vRnVl+yBaLWO1QCHWhMFP2dtki8Rqm7S9MO9m2w0qaIHDXnUXN0aY6/xQAAAAzsTPr7otuvcIng883v91Fi44QvQ==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAyhk+hFPNyEWfb4pFdrhM/QAAAAACAAAAAAADZgAAwAAAABAAAADikWT5VgWiuf3Cjypx0eGaAAAAAASAAACgAAAAEAAAAH7wYhbYdtQwpyRouLBsih2IAAAAyQyiBBolEBnuGPE4jfox9cPpHT0ZY4yzbLfAwIuAMrBC95am596KFYrx1eIoqPcizxG4os1MbqROJCEvBMvHXoRFD5k3vYWZvtW01e0gfSB9VCLIUw1m2NwamHkSXTheFlAWtN+e8JNeXuy3lCWWTptLwJCwRdt8GldgL2TlYTcjmLPqbM5BURQAAAA93RWgV1ZOJckDZszRaR+D24bz1Q==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -221,10 +221,10 @@
                 <SSIS:Property SSIS:Name="Name">Person_Demo</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{DF4C6306-D737-4382-B018-3C0A5FF17F33}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{DFDC06DD-8F4B-489A-B04A-22EAB915D67A}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -253,7 +253,118 @@
           <ConfigurationSetting>
             <Id>LastModifiedTime</Id>
             <Name>LastModifiedTime</Name>
-            <Value xsi:type="xsd:dateTime">2017-05-08T20:24:45.0676829Z</Value>
+            <Value xsi:type="xsd:dateTime">2017-05-09T15:05:33.9897853Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{6af8252f-d8d3-4899-a289-2fa1329807a2}</Id>
+            <Name>Project::DW_Server</Name>
+            <Value xsi:type="xsd:string">CW-00002456</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{eeeb1b98-5f0c-46aa-a766-8293224bde65}</Id>
+            <Name>Project::DW_Database</Name>
+            <Value xsi:type="xsd:string">CW_DataWarehouse</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{459abeb3-c25d-4660-aa9c-04fde1966d4b}</Id>
+            <Name>Project::Src_Server</Name>
+            <Value xsi:type="xsd:string">CW-00002456</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{9a0aa18e-4131-426f-a155-f6b95f3702dd}</Id>
+            <Name>Project::Src_Database</Name>
+            <Value xsi:type="xsd:string">AdventureWorks2014</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{dd41f702-e702-4f85-9144-3f192f97739a}</Id>
+            <Name>Project::DW_StagingDatabase</Name>
+            <Value xsi:type="xsd:string">DW_Staging</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2016</TargetServerVersion>
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-05-09T15:07:32.4017853Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{6af8252f-d8d3-4899-a289-2fa1329807a2}</Id>
+            <Name>Project::DW_Server</Name>
+            <Value xsi:type="xsd:string">SomeOtherServer</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{eeeb1b98-5f0c-46aa-a766-8293224bde65}</Id>
+            <Name>Project::DW_Database</Name>
+            <Value xsi:type="xsd:string">CW_DataWarehouse</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{459abeb3-c25d-4660-aa9c-04fde1966d4b}</Id>
+            <Name>Project::Src_Server</Name>
+            <Value xsi:type="xsd:string">SomeOtherServer</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{9a0aa18e-4131-426f-a155-f6b95f3702dd}</Id>
+            <Name>Project::Src_Database</Name>
+            <Value xsi:type="xsd:string">AdventureWorks2014</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{dd41f702-e702-4f85-9144-3f192f97739a}</Id>
+            <Name>Project::DW_StagingDatabase</Name>
+            <Value xsi:type="xsd:string">DW_Staging</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Quality</Name>
+      <Options>
+        <OutputPath>bin</OutputPath>
+        <ConnectionMappings />
+        <ConnectionProviderMappings />
+        <ConnectionSecurityMappings />
+        <DatabaseStorageLocations />
+        <TargetServerVersion>SQLServer2016</TargetServerVersion>
+        <ParameterConfigurationValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-05-09T15:05:33.9897853Z</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{6af8252f-d8d3-4899-a289-2fa1329807a2}</Id>
+            <Name>Project::DW_Server</Name>
+            <Value xsi:type="xsd:string">CW-00002456</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{eeeb1b98-5f0c-46aa-a766-8293224bde65}</Id>
+            <Name>Project::DW_Database</Name>
+            <Value xsi:type="xsd:string">CW_DataWarehouse</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{459abeb3-c25d-4660-aa9c-04fde1966d4b}</Id>
+            <Name>Project::Src_Server</Name>
+            <Value xsi:type="xsd:string">CW-00002456</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{9a0aa18e-4131-426f-a155-f6b95f3702dd}</Id>
+            <Name>Project::Src_Database</Name>
+            <Value xsi:type="xsd:string">AdventureWorks2014</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>{dd41f702-e702-4f85-9144-3f192f97739a}</Id>
+            <Name>Project::DW_StagingDatabase</Name>
+            <Value xsi:type="xsd:string">DW_Staging</Value>
           </ConfigurationSetting>
         </ParameterConfigurationValues>
       </Options>

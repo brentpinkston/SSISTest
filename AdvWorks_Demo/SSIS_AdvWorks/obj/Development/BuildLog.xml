@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>SSIS_AdvWorks</Name>
-    <LastWriteTime>2017-05-08T20:24:44.9706732Z</LastWriteTime>
+    <LastWriteTime>2017-05-08T20:28:14.616647Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>Person_Demo.dtsx</Name>
-      <LastWriteTime>2017-05-08T20:24:44.9396701Z</LastWriteTime>
+      <LastWriteTime>2017-05-09T14:28:11.767663Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>

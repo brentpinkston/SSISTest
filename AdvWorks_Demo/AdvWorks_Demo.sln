@@ -13,6 +13,8 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Development|Any CPU = Development|Any CPU
+		Production|Any CPU = Production|Any CPU
+		Quality|Any CPU = Quality|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -20,6 +22,10 @@ Global
 		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Debug|Any CPU.Build.0 = Development
 		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Development|Any CPU.ActiveCfg = Development
 		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Development|Any CPU.Build.0 = Development
+		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Production|Any CPU.ActiveCfg = Production
+		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Production|Any CPU.Build.0 = Production
+		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Quality|Any CPU.ActiveCfg = Quality
+		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Quality|Any CPU.Build.0 = Quality
 		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Release|Any CPU.ActiveCfg = Development
 		{DF50BBFF-328D-419E-9BB1-608633ABC637}.Release|Any CPU.Build.0 = Development
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -28,6 +34,12 @@ Global
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Production|Any CPU.ActiveCfg = Production|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Production|Any CPU.Build.0 = Production|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Production|Any CPU.Deploy.0 = Production|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Quality|Any CPU.ActiveCfg = Quality|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Quality|Any CPU.Build.0 = Quality|Any CPU
+		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Quality|Any CPU.Deploy.0 = Quality|Any CPU
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C611834-9AA3-470A-8476-BADAB1FDF2D0}.Release|Any CPU.Deploy.0 = Release|Any CPU

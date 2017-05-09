@@ -4,12 +4,58 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
+        <ServerName>CW-00002456</ServerName>
+        <PathOnServer>/SSISDB/Adv_Works_Demo/SSIS_AdvWorks</PathOnServer>
         <Run64BitRuntime>true</Run64BitRuntime>
         <UserIDs />
         <UserPasswords />
         <OfflineMode>false</OfflineMode>
         <ProgressReporting>true</ProgressReporting>
-        <ParameterConfigurationSensitiveValues />
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-05-08T20:24:45.0676829Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Production</Name>
+      <Options>
+        <ServerName>CW-00002456</ServerName>
+        <PathOnServer>/SSISDB/Adv_Works_Demo/SSIS_AdvWorks</PathOnServer>
+        <Run64BitRuntime>true</Run64BitRuntime>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-05-08T20:24:45.0676829Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
+      </Options>
+    </Configuration>
+    <Configuration>
+      <Name>Quality</Name>
+      <Options>
+        <ServerName>CW-00002456</ServerName>
+        <PathOnServer>/SSISDB/Adv_Works_Demo/SSIS_AdvWorks</PathOnServer>
+        <Run64BitRuntime>true</Run64BitRuntime>
+        <UserIDs />
+        <UserPasswords />
+        <OfflineMode>false</OfflineMode>
+        <ProgressReporting>true</ProgressReporting>
+        <ParameterConfigurationSensitiveValues>
+          <ConfigurationSetting>
+            <Id>LastModifiedTime</Id>
+            <Name>LastModifiedTime</Name>
+            <Value xsi:type="xsd:dateTime">2017-05-08T20:24:45.0676829Z</Value>
+          </ConfigurationSetting>
+        </ParameterConfigurationSensitiveValues>
       </Options>
     </Configuration>
   </Configurations>
