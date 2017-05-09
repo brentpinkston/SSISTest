@@ -8,6 +8,9 @@ EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQL_AdvWorks_Demo", "SQL_AdvWorks_Demo\SQL_AdvWorks_Demo.sqlproj", "{7C611834-9AA3-470A-8476-BADAB1FDF2D0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{86D1150B-8BEA-4735-BCF5-077FE29E01B6}"
+	ProjectSection(SolutionItems) = preProject
+		SQL_AdvWorks_Demo\Documentation_Demo_DW.docx = SQL_AdvWorks_Demo\Documentation_Demo_DW.docx
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
